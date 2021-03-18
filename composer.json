@@ -1,38 +1,35 @@
 {
-    "name": "brlab-inc/oauth2-yconnect",
-    "description": "Yahoo Japan Yconnect OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "YAMATO Takeshi",
-            "email": "tyamato@brlab.works"
-        }
-    ],
-    "keywords": [
-        "oauth",
-        "oauth2",
-        "client",
-        "authorization",
-        "authorisation",
-        "yahoo",
-        "yahoojapan",
-        "yconnect"
-    ],
-    "require": {
-        "league/oauth2-client": "^2.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.0",
-        "phar-io/manifest": "^1.0.2"
-    },
-    "autoload": {
-        "psr-4": {
-            "BRlab\\OAuth2\\Client\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "BRlab\\OAuth2\\Client\\Test\\": "test/src/"
-        }
+  "name": "brlab-inc/oauth2-asmile",
+  "description": "ASMILE OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "YAMATO Takeshi",
+      "email": "tyamato@brlab.works"
     }
+  ],
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "authorisation"
+  ],
+  "require": {
+    "league/oauth2-client": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0",
+    "phar-io/manifest": "^1.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "BRlab\\OAuth2\\Client\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BRlab\\OAuth2\\Client\\Test\\": "test/src/"
+    }
+  }
 }

@@ -1,17 +1,17 @@
-# YConnect(Yahoo Japan) Provider for OAuth 2.0 Client
+# ASMILE Provider for OAuth 2.0 Client
 
 [![License](https://img.shields.io/packagist/l/league/oauth2-google.svg)](https://github.com/tavii/oauth2-yconnect/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/tavii/oauth2-yconnect.svg?branch=master)](https://travis-ci.org/tavii/oauth2-yconnect)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/tavii/oauth2-yconnect/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/tavii/oauth2-yconnect/?branch=master)
 
-This package provides YConnect(Yahoo Japan) OAuth2.0 support for the PHP League's [ OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
+This package provides ASMILE OAuth2.0 support for the PHP League's [ OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
 # Installation
 
 To install, use composer.
 
 ```
-$ composer require tavii/oauth2-yconnect
+$ composer require brlab-inc/oauth2-asmile
 ```
 
 Usage is the same as The League's OAuth client, using \BRlab\OAuth2\Client\Provider\YConnect as the provider.
